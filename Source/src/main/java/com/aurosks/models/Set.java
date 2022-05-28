@@ -6,6 +6,7 @@ public class Set {
     private int id;
     private String title;
     private List<Integer> kPacIds;
+    private String action;
 
     public int getId() {
         return id;
@@ -30,4 +31,8 @@ public class Set {
     public void setkPacIds(List<Integer> kPacIds) {
         this.kPacIds = kPacIds;
     }
+
+    public String getAction() { return action; }
+
+    public void setAction(String action) { this.action = action; }
 }

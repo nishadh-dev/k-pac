@@ -1,0 +1,14 @@
+com/aurosks/controllers/KPacAppController.class
+com/aurosks/configs/DBConfiguration.class
+com/aurosks/configs/WebAppConfig.class
+com/aurosks/configs/KPacApplicationInitializer.class
+com/aurosks/repository/SetRepository.class
+com/aurosks/mapper/SetRowMapper.class
+com/aurosks/mapper/KPacRowMapper.class
+com/aurosks/controllers/api/KPacApiController.class
+com/aurosks/repository/KPacRepository.class
+com/aurosks/repository/KPacRepositoryImpl.class
+com/aurosks/models/KPac.class
+com/aurosks/models/Set.class
+com/aurosks/repository/SetRepositoryImpl.class
+com/aurosks/services/KPacService.class

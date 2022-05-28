@@ -6,6 +6,7 @@ public class KPac {
     private String title;
     private String description;
     private String creationDate;
+    private String action;
 
     public int getId() {
         return id;
@@ -38,4 +39,8 @@ public class KPac {
     public void setCreationDate(String creationDate) {
         this.creationDate = creationDate;
     }
+
+    public String getAction() { return action; }
+
+    public void setAction(String action) { this.action = action; }
 }

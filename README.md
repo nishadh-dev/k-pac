@@ -5,20 +5,22 @@ Clone the project
 git clone https://github.com/nishadh-dev/k-pac.git -b develop
 
 or download the project from https://github.com/nishadh-dev/k-pac
-![](/Users/nishadh/Desktop/Clone.png)
-
+![image](https://user-images.githubusercontent.com/91365136/170892907-bf0d5e02-f655-4af6-8338-0629dbfd8d25.png)
 
 After the cloning the project navigate to folder K-PAC/Source
 
 Make sure your folder has the file pom.xml
 
 Run the command “mvn clean install”
-![](/Users/nishadh/Desktop/mvn.png)
+![image](https://user-images.githubusercontent.com/91365136/170892911-203a4d38-2685-4e98-9c59-35f04a37d935.png)
+
 
 
 After running the command, it will generate a war file named k-pac.war in target folder.
 
-![](/Users/nishadh/Desktop/Screenshot 2022-05-29 at 10.51.39 PM.png)
+![image](https://user-images.githubusercontent.com/91365136/170892923-a63d6842-1b3a-4c5c-9b0f-6c0ac5813933.png)
+
+
 
 Copy that war file and put in web apps folder in tomcat.
 

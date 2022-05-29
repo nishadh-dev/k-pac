@@ -1,5 +1,7 @@
 K-Pac Deployment Steps
 
+**Step 1**
+
 Clone the project
 
 git clone https://github.com/nishadh-dev/k-pac.git -b develop
@@ -12,6 +14,8 @@ After the cloning the project navigate to folder K-PAC/Source
 
 Make sure your folder has the file pom.xml
 
+**Step 2**
+
 Run the command “mvn clean install”
 
 ![image](https://user-images.githubusercontent.com/91365136/170892911-203a4d38-2685-4e98-9c59-35f04a37d935.png)
@@ -23,6 +27,7 @@ After running the command, it will generate a war file named k-pac.war in target
 ![image](https://user-images.githubusercontent.com/91365136/170892923-a63d6842-1b3a-4c5c-9b0f-6c0ac5813933.png)
 
 
+**Step 3**
 
 Copy that war file and put in web apps folder in tomcat.
 
@@ -30,9 +35,11 @@ Start the tomcat server.
 
 Application will be running in http://localhost:port/k-pac
 
-Make sure your local mysql server is up and running
+**Pre-Requisite**
 
-Create below user and schema before running the application
+_Make sure your local mysql server is up and running_
+
+_Create below user and schema before running the application_
 
 CREATE USER IF NOT EXISTS 'k_pac_user_dev'@'%' IDENTIFIED BY 'kpac_7dev%'; 
 

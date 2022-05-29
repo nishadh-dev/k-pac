@@ -49,4 +49,5 @@ GRANT ALL ON k_pac_dev.* TO 'k_pac_user_dev'@'%';
 
 FLUSH PRIVILEGES;
 
+Note: Application UI screeh shots are added in docs folder.
 

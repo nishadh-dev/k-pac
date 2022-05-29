@@ -5,6 +5,7 @@ Clone the project
 git clone https://github.com/nishadh-dev/k-pac.git -b develop
 
 or download the project from https://github.com/nishadh-dev/k-pac
+
 ![image](https://user-images.githubusercontent.com/91365136/170892907-bf0d5e02-f655-4af6-8338-0629dbfd8d25.png)
 
 After the cloning the project navigate to folder K-PAC/Source
@@ -12,6 +13,7 @@ After the cloning the project navigate to folder K-PAC/Source
 Make sure your folder has the file pom.xml
 
 Run the command “mvn clean install”
+
 ![image](https://user-images.githubusercontent.com/91365136/170892911-203a4d38-2685-4e98-9c59-35f04a37d935.png)
 
 
